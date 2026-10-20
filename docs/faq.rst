@@ -523,7 +523,7 @@ For safely deleting the user data (and possible the user as well) a script has b
 
 Proceed as following for deleting an user:
 
-1. Disable the to-be-deleted user. This can be done via the Web Administration interface (/admin), the Mailu CLI command user-delete, or the RESTful API. Do **not** delete the user.
+1. Disable the to-be-deleted user. This can be done via the Mailu CLI command user-delete, or the RESTful API. Do **not** delete the user.
 2. Download .\\scripts\\purge_user.sh from the `github project`_. Or clone the Mailu github project.
 3. Copy the script purge_user.sh to the Mailu folder that contains the `docker-compose.yml` file.
 4. Run as root: purge_user.sh
